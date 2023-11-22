@@ -1,0 +1,27 @@
+
+.box{
+    height: 1fr;
+    display: grid;
+    grid-template-areas:"titulo   titulo"
+                        "L           R"
+                        "rodape  rodape";
+    grid-template-rows: 60px  600px;
+    grid-template-columns: 1fr  600px;
+}
+
+.lin1{
+    background-color: #cdb4db;
+    grid-area: titulo;
+}
+.lin2{
+    background-color: #ffc8dd ;
+    grid-area: rodape;
+}
+.colun{
+    background-color: #ffafcc ;
+    grid-area: L;
+}
+.colun2{
+    background-color: #bde0fe;
+    grid-area: R;
+}

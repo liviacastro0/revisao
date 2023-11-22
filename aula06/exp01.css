@@ -1,0 +1,61 @@
+body{
+    background-color: #e9edc9;
+}
+.box{
+    background-color: #ccd5ae;
+    height: 600px;
+    border: 2px solid white;
+    display: grid;
+    grid-template-areas:"titulo titulo titulo"
+                        "menuL   conteudo menuR"
+                        "rodape rodape rodape";
+    grid-template-rows: 50px 1fr 50px;
+    grid-template-columns: 200px 1fr 100px;                    
+}
+.conteudo{
+    background-color :#fefae0;
+    grid-area: conteudo;
+}
+.titulo{
+    background-color: #faedcd;
+    grid-area: titulo;
+    text-align: center;
+    
+}
+.rodape{
+    background-color:#d4a373;
+    grid-area: rodape;
+}
+.menuL{
+    background-color:#606c38;
+    grid-area: menuL;
+}
+.box1{
+    background-color: #f3c79b;
+    margin: 6px;
+    border-radius: 15px;
+    height: 30px;
+    text-align: center;
+    
+}
+.box2{
+    background-color: #f3c79b;
+    margin: 6px;
+    border-radius: 15px;
+    height: 30px;
+    text-align: center;
+    
+}
+.box3{
+    background-color: #f3c79b;
+    margin: 6px;
+    border-radius: 15px;
+    height: 30px;
+    text-align: center;
+    
+}
+
+.menuR{
+    background-color: #bc6c25;
+    grid-area: menuR;
+}
