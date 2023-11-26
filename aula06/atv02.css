@@ -5,7 +5,7 @@
     height: 650px;
     display: grid;
     grid-template-areas:"titulo titulo titulo"
-                        "menuL   conteudo menuR"
+                        "menuL conteudo menuR"
                         "rodape rodape rodape";
     grid-template-rows: 50px 1fr 50px;
     grid-template-columns: 1fr 1fr 1fr;                    

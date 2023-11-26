@@ -1,0 +1,59 @@
+/* Reset all margins to 0 */
+* {
+    margin: 0;
+}
+
+/* Define the main container with a grid layout */
+.box {
+    display: grid;
+    grid-template-areas: 'titulo titulo titulo'
+        'menur conteudo menul';
+    grid-template-columns: 200px 1400px auto;
+    grid-template-rows: 200px 800px;
+}
+
+/* Define the title section */
+.titulo {
+    grid-area: titulo;
+    background-color: #BDE0FE;
+    display: grid;
+    grid-template-columns: 300px auto;
+}
+
+/* Style the title text */
+h1 {
+    background-color: #A2D2FF;
+    width: 200px;
+    height: 75px;
+    font-size: 50px;
+    text-align: center;
+    margin: 50px 500px;
+}
+
+/* Style the image */
+img {
+    height: 100px;
+    width: 100px;
+    padding: 50px 50px;
+}
+
+/* Define the content section */
+.conteudo {
+    grid-area: conteudo;
+    text-align: center;
+    background-color: rgb(205, 180, 219);
+}
+
+/* Define the left menu section */
+.menuL {
+    grid-area: menul;
+    background-color: #FFC8DD;
+}
+
+/* Define the right menu section */
+.menuR {
+    grid-area: menur;
+    background-color: #FFAFCC;
+}
+
+/* This code sets up a responsive webpage layout using CSS Grid. The layout consists of a title section, content section, left menu section, and right menu section. Each section is styled with a different background color and the title section contains an image and a heading*/
